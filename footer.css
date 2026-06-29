@@ -1,0 +1,31 @@
+body{
+    margin:0;
+    font-family:Arial;
+}
+
+.content{
+    height:400px;
+    text-align:center;
+    padding-top:50px;
+}
+
+footer{
+    background:#222;
+    color:white;
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-around;
+    padding:30px;
+}
+
+.footer-container h2{
+    color:#00bcd4;
+}
+
+.bottom{
+    text-align:center;
+    background:#111;
+    padding:15px;
+}
