@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+header{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+nav{
+    background:#00509e;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    padding:15px 20px;
+}
+
+nav a:hover{
+    background:#002244;
+}
+
+.hero{
+    text-align:center;
+    background:#87ceeb;
+    padding:80px 20px;
+}
+
+.hero h2{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:20px;
+    margin-bottom:20px;
+}
+
+.hero button{
+    padding:12px 25px;
+    border:none;
+    background:#003366;
+    color:white;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+.hero button:hover{
+    background:#00509e;
+}
+
+.about{
+    padding:40px;
+    text-align:center;
+    background:white;
+}
+
+.about h2{
+    margin-bottom:15px;
+}
+
+.courses{
+    padding:40px;
+    text-align:center;
+}
+
+.course-container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:25px;
+}
+
+.card{
+    background:white;
+    width:280px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+
+.card:hover{
+    transform:scale(1.05);
+    transition:0.4s;
+}
+
+.contact{
+    background:white;
+    padding:40px;
+    text-align:center;
+}
+
+form{
+    width:350px;
+    margin:auto;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid gray;
+    border-radius:5px;
+}
+
+textarea{
+    height:120px;
+}
+
+form button{
+    width:100%;
+    padding:12px;
+    background:#003366;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+form button:hover{
+    background:#00509e;
+}
+
+footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+
+@media(max-width:768px){
+
+    .hero h2{
+        font-size:30px;
+    }
+
+    form{
+        width:90%;
+    }
+
+    nav{
+        flex-direction:column;
+        text-align:center;
+    }
+}
