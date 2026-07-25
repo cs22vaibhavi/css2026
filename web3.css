@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+header {
+    background: #222;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00adb5;
+}
+
+/* Sections */
+.section {
+    height: 30vh;
+    padding: 80px 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 18px;
+    max-width: 600px;
+}
+
+/* Different Background Colors */
+.home {
+    background: #f4f4f4;
+}
+
+.about {
+    background: #e3f2fd;
+}
+
+.services {
+    background: #fce4ec;
+}
+
+.contact {
+    background: #e8f5e9;
+}
+
+/* Responsive Design */
+@media(max-width: 700px) {
+
+    nav {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+}
